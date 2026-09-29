@@ -35,6 +35,21 @@ pip install -r requirements.txt
 > `jupyterlab`, `sympy`, `matplotlib` y el resto de las dependencias del
 > curso, para que todos trabajemos con las mismas versiones.
 
+## Opción C: GitHub Codespaces (sin instalar nada)
+
+Alternativa opcional: un entorno listo en el navegador, con Python 3.11, las
+versiones fijas de `requirements.txt` y el filtro `nbstripout` ya activos.
+Necesitas una cuenta de GitHub y tu fork del curso (ver
+[`git-guia.md`](git-guia.md)), así que es más natural a partir de la semana 3.
+
+1. En la página de **tu fork**, da clic en **Code** → pestaña **Codespaces** →
+   **Create codespace on main**.
+2. Espera a que termine la configuración (uno o dos minutos la primera vez).
+3. Verifica con `sp.sqrt(8)` en un notebook, igual que abajo.
+
+GitHub da una cuota mensual gratuita de horas; detén el codespace cuando
+termines (y bórralo si ya no lo usas). Con GitHub Education la cuota es mayor.
+
 ## Verificación
 
 Con el entorno activado:
