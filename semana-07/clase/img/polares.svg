@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 240" width="320" height="240" role="img" aria-label="Particula P a distancia r del origen O y angulo theta; en P, b_x apunta en direccion radial y b_y en direccion transversal">
+  <defs>
+    <marker id="flecha-gris" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#333333"/>
+    </marker>
+    <marker id="flecha-azul" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#1f5fa8"/>
+    </marker>
+    <marker id="flecha-rojo" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#c0392b"/>
+    </marker>
+    <marker id="flecha-verde" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#2e8b57"/>
+    </marker>
+    <marker id="flecha-tenue" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#666666"/>
+    </marker>
+  </defs>
+
+  <rect x="1" y="1" width="318" height="238" rx="12" fill="#f7f7f5" stroke="#d8d8d3" stroke-width="1"/>
+
+  <!-- marco N -->
+  <line x1="50.0" y1="205.0" x2="300.0" y2="205.0" stroke="#333333" stroke-width="1.5" marker-end="url(#flecha-gris)"/>
+  <line x1="50.0" y1="205.0" x2="50.0" y2="20.0" stroke="#333333" stroke-width="1.5" marker-end="url(#flecha-gris)"/>
+  <text x="288.0" y="227.0" font-family="'Latin Modern Roman', 'CMU Serif', 'Times New Roman', serif" font-size="17" fill="#333333" font-weight="bold">n</text>
+  <text x="298.0" y="231.0" font-family="'Latin Modern Roman', 'CMU Serif', 'Times New Roman', serif" font-size="12" fill="#333333" font-style="italic">x</text>
+  <path d="M 289.6 216.0 L 292.8 213.0 L 296.0 216.0" fill="none" stroke="#333333" stroke-width="1.3"/>
+  <text x="58.0" y="32.0" font-family="'Latin Modern Roman', 'CMU Serif', 'Times New Roman', serif" font-size="17" fill="#333333" font-weight="bold">n</text>
+  <text x="68.0" y="36.0" font-family="'Latin Modern Roman', 'CMU Serif', 'Times New Roman', serif" font-size="12" fill="#333333" font-style="italic">y</text>
+  <path d="M 59.6 21.0 L 62.8 18.0 L 66.0 21.0" fill="none" stroke="#333333" stroke-width="1.3"/>
+  <text x="32.0" y="223.0" font-family="'Latin Modern Roman', 'CMU Serif', 'Times New Roman', serif" font-size="16" fill="#333333" font-style="italic">O</text>
+
+  <!-- trayectoria -->
+  <path d="M 163.4 199.3 L 165.2 195.8 L 167.0 192.1 L 168.6 188.3 L 170.1 184.4 L 171.5 180.4 L 172.8 176.3 L 173.9 172.0 L 174.9 167.7 L 175.7 163.4 L 176.3 158.9 L 176.9 154.3 L 177.2 149.7 L 177.4 145.0 L 177.4 140.3 L 177.2 135.5 L 176.9 130.6 L 176.4 125.7 L 175.7 120.8 L 174.8 115.9 L 173.8 110.9 L 172.5 105.9 L 171.1 100.9 L 169.5 95.9 L 167.7 90.9 L 165.7 85.9 L 163.4 81.0 L 161.0 76.0 L 158.4 71.1 L 155.7 66.2 L 152.7 61.4 L 149.5 56.7 L 146.1 52.0 L 142.5 47.4 L 138.8 42.8 L 134.8 38.3 L 130.7 34.0 L 126.4 29.7 L 121.8 25.5 L 117.1 21.5 L 112.3 17.6 L 107.2 13.8 L 102.0 10.1 L 96.6 6.6 L 91.1 3.2" fill="none" stroke="#999999" stroke-width="1.5" stroke-dasharray="5 4"/>
+
+  <!-- posicion r b_x -->
+  <line x1="50" y1="205" x2="173.3" y2="108.7" stroke="#333333" stroke-width="1.5"/>
+  <text x="102.1" y="144.7" font-family="'Latin Modern Roman', 'CMU Serif', 'Times New Roman', serif" font-size="17" fill="#333333" font-style="italic">r</text>
+  <path d="M 95.0 205.0 A 45 45 0 0 0 85.5 177.3" fill="none" stroke="#c0392b" stroke-width="2"/>
+  <text x="100.0" y="193.0" font-family="'Latin Modern Roman', 'CMU Serif', 'Times New Roman', serif" font-size="17" fill="#c0392b" font-style="italic">θ</text>
+
+  <!-- marco B en la particula -->
+  <line x1="173.3" y1="108.7" x2="216.6" y2="74.8" stroke="#1f5fa8" stroke-width="2.5" marker-end="url(#flecha-azul)"/>
+  <line x1="173.3" y1="108.7" x2="139.4" y2="65.4" stroke="#1f5fa8" stroke-width="2.5" marker-end="url(#flecha-azul)"/>
+  <text x="220.6" y="90.8" font-family="'Latin Modern Roman', 'CMU Serif', 'Times New Roman', serif" font-size="17" fill="#1f5fa8" font-weight="bold">b</text>
+  <text x="230.6" y="94.8" font-family="'Latin Modern Roman', 'CMU Serif', 'Times New Roman', serif" font-size="12" fill="#1f5fa8" font-style="italic">x</text>
+  <path d="M 222.2 76.1 L 225.4 73.1 L 228.6 76.1" fill="none" stroke="#1f5fa8" stroke-width="1.3"/>
+  <text x="224.6" y="108.8" font-family="'Latin Modern Roman', 'CMU Serif', 'Times New Roman', serif" font-size="12" fill="#1f5fa8">radial</text>
+  <text x="109.4" y="69.4" font-family="'Latin Modern Roman', 'CMU Serif', 'Times New Roman', serif" font-size="17" fill="#1f5fa8" font-weight="bold">b</text>
+  <text x="119.4" y="73.4" font-family="'Latin Modern Roman', 'CMU Serif', 'Times New Roman', serif" font-size="12" fill="#1f5fa8" font-style="italic">y</text>
+  <path d="M 111.0 54.6 L 114.2 51.6 L 117.4 54.6" fill="none" stroke="#1f5fa8" stroke-width="1.3"/>
+  <text x="61.4" y="87.4" font-family="'Latin Modern Roman', 'CMU Serif', 'Times New Roman', serif" font-size="12" fill="#1f5fa8">transversal</text>
+  <circle cx="173.3" cy="108.7" r="4" fill="#333333"/>
+  <text x="181.3" y="126.7" font-family="'Latin Modern Roman', 'CMU Serif', 'Times New Roman', serif" font-size="16" fill="#333333" font-style="italic">P</text>
+</svg>
