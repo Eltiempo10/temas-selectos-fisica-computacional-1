@@ -23,7 +23,9 @@ cuenta, en `github.com/<tu-usuario>/temas-selectos-fisica-computacional-1`.
 
 **Habilita GitHub Actions en tu fork (una sola vez).** GitHub desactiva los
 workflows en los forks por seguridad. Entra a la pestaña **Actions** de tu
-fork y da clic en **I understand my workflows, go ahead and enable them**.
+fork y da clic en el botón verde que confirma y habilita los workflows
+(GitHub lo muestra en inglés: «I understand my workflows, go ahead and enable
+them»).
 Sin esto, el autograding de tus tareas nunca corre y tu PR no muestra
 ningún check (ver [`docs/autograding.md`](autograding.md)).
 

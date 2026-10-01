@@ -22,8 +22,10 @@ Los tests son públicos: están en `semana-NN/tarea/tests/test_tarea.py`.
 
 ## Qué ves tú (estudiante)
 
-**Una sola vez:** habilita Actions en tu fork (pestaña **Actions** → *I
-understand my workflows, go ahead and enable them*). Sin esto no corre nada.
+**Una sola vez:** habilita Actions en tu fork: pestaña **Actions** → botón
+verde para confirmar y habilitar los workflows (GitHub lo muestra en inglés:
+«I understand my workflows, go ahead and enable them»). Sin esto no corre
+nada.
 
 **En tu PR**, al final de la conversación, en el recuadro de *checks*:
 
