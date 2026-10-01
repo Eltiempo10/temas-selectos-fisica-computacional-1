@@ -39,20 +39,29 @@ Da clic en **Details** del job `Autograding (...)` → paso **Tests**. Eso es
 lo que debes ver cuando todo va bien:
 
 ```text
-tests/test_tarea.py::test_simbolos_tienen_nombre_y_suposiciones_correctos PASSED
-tests/test_tarea.py::test_potencial_de_lennard_jones_correcto PASSED
+collected 11 items
+
+tests/test_tarea.py::test_simbolos_tienen_nombre_y_suposiciones_correctos PASSED [  9%]
+tests/test_tarea.py::test_potencial_de_lennard_jones_correcto PASSED     [ 18%]
 ...
 ============================== 11 passed in 12.40s ==============================
 ```
 
-Y esto cuando algo falta (el nombre del test dice qué habilidad quedó pendiente):
+Cuando algo falta, el test sale `FAILED` (el nombre dice qué habilidad quedó
+pendiente) y debajo aparece el error de la celda del notebook. Esta es una
+salida real, de una tarea sin resolver (los `...` del `# TODO` siguen ahí):
 
 ```text
-tests/test_tarea.py::test_potencial_de_lennard_jones_correcto FAILED
+tests/test_tarea.py::test_simbolos_tienen_nombre_y_suposiciones_correctos FAILED [  9%]
+tests/test_tarea.py::test_potencial_de_lennard_jones_correcto FAILED     [ 18%]
 ...
-FAILED tests/test_tarea.py::test_potencial_de_lennard_jones_correcto
-============================== 1 failed, 10 passed in 12.31s ==============================
+E           AttributeError: 'ellipsis' object has no attribute 'is_positive'
+...
+============================== 11 failed in 1.78s ==============================
 ```
+
+El error de la celda (aquí `'ellipsis'`, porque el ejercicio sigue sin
+resolver) te dice dónde mirar en tu notebook.
 
 **Si sale ❌:**
 
